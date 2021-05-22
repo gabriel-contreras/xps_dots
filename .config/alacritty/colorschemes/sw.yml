@@ -1,0 +1,54 @@
+# Alacritty Star Wars color scheme
+
+colors:
+  primary:
+    background: '#2c1c14'
+    foreground: '#B5A8A5'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  search:
+    matches:
+      foreground: '#000000' # Check!
+      background: '#ffffff' # Check!
+    focused_match:
+      foreground: CellBackground
+      background: CellForeground
+
+    bar:
+      background: '#c5c8c6' # Check!
+      foreground: '#1d1f21' # Check!
+
+  line_indicator:
+    foreground: None
+    background: None
+  
+  selection:
+    text: CellBackground
+    background: CellForeground
+
+  normal:
+    black:   '#2c1c14'
+    red:     '#91322a'
+    green:   '#4D6637'
+    yellow:  '#f9ca76'
+    blue:    '#516C94'
+    magenta: '#8c6c84' # Check !
+    cyan:    '#3a4446' # Check !
+    white:   '#B5A8A5'
+
+  bright:
+    black:   '#2c1c14'
+    red:     '#91322a'
+    green:   '#4D6637'
+    yellow:  '#f9ca76'
+    blue:    '#516C94'
+    magenta: '#8c6c84' # Check !
+    cyan:    '#3a4446' # Check !
+    white:   '#B5A8A5'

@@ -1,0 +1,54 @@
+# Alacritty skyrim color scheme
+
+colors:
+  primary:
+    background: '#101111'
+    foreground: '#f1dd87'
+
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  search:
+    matches:
+      foreground: '#000000' # Check!
+      background: '#ffffff' # Check!
+    focused_match:
+      foreground: CellBackground
+      background: CellForeground
+
+    bar:
+      background: '#c5c8c6' # Check!
+      foreground: '#1d1f21' # Check!
+
+  line_indicator:
+    foreground: None
+    background: None
+
+  selection:
+    text: CellBackground
+    background: CellForeground
+
+  normal:
+    black:   '#101111'
+    red:     '#cc6666' # Fix!
+    green:   '#7c8c6c'
+    yellow:  '#b16e2e'
+    blue:    '#1a3f5b'
+    magenta: '#b294bb' # Fix!
+    cyan:    '#4c7484'
+    white:   '#f1dd87'
+
+  bright:
+    black:   '#101111'
+    red:     '#cc6666' # Fix!
+    green:   '#7c8c6c'
+    yellow:  '#b16e2e'
+    blue:    '#1a3f5b'
+    magenta: '#b294bb' # Fix!
+    cyan:    '#4c7484'
+    white:   '#f1dd87'
