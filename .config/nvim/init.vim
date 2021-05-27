@@ -18,10 +18,10 @@ Plug 'lervag/vimtex'
 
 " Theme/Aesthetic
 Plug 'danilo-augusto/vim-afterglow'
-Plug 'ajmwagar/vim-deus'
+Plug 'rakr/vim-two-firewatch'
 Plug 'sts10/vim-pink-moon'
-Plug 'keith/parsec.vim'
-Plug 'fcpg/vim-orbital'
+Plug 'wadackel/vim-dogrun'
+Plug 'Badacadabra/vim-archery'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -53,12 +53,13 @@ set textwidth=80
 " Color/Theme customizations
 " skyrim -> afterglow ; zenburn
 " gow -> pink-moon ; angr
-" hzd -> deus ; murmur
-" sw  -> parsec ; distinguished
-" world -> orbital ; lucius
+" hzd -> vim-two-firewatch ; twofirewatch
+" sw  -> dogrun ; violet
+" world -> archery ; archery
+let g:two_firewatch_italics=1
 let g:airline_powerline_fonts = 1
-colorscheme orbital
-let g:airline_theme = 'lucius'
+colorscheme dogrun
+let g:airline_theme = 'violet'
 
 " Enables autocompletion:
 set wildmode=longest,list,full

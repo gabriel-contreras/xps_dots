@@ -13,7 +13,7 @@ if [ -e $HOME/.bash_functions ]; then
 fi
 
 # Customize the prompt
-theme="world"
+theme="sw"
 
 if [ $theme = "skyrim" ]; then
 	PS1=' 🍮 \w\n◼️ '
@@ -22,7 +22,7 @@ elif [ $theme = "gow" ]; then
 elif [ $theme = "hzd" ]; then
 	PS1=' 🏹 \w\n◼️ '
 elif [ $theme = "sw" ]; then
-	PS1=' 🌋 \w\n◼️ '
+	PS1=' 🪐 \w\n◼️ '
 elif [ $theme = "world" ]; then
 	PS1=' 🌐 \w\n◼️ '
 fi

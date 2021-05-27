@@ -11,8 +11,8 @@ sed -i "s/colorschemes\/[^\.]*/colorschemes\/world/" $HOME/.config/alacritty/ala
 sed -i "s/theme=\".*\"/theme=\"world\"/" $HOME/.bashrc
 
 # Neovim
-sed -i "s/colorscheme .*/colorscheme orbital/" $HOME/.config/nvim/init.vim
-sed -i "s/_theme = '.*'/_theme = 'lucius'/" $HOME/.config/nvim/init.vim
+sed -i "s/colorscheme .*/colorscheme archery/" $HOME/.config/nvim/init.vim
+sed -i "s/_theme = '.*'/_theme = 'archery'/" $HOME/.config/nvim/init.vim
 
 # VS Code
 sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Abyss\"/" $HOME/.config/Code\ -\ OSS/User/settings.json

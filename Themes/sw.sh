@@ -11,11 +11,11 @@ sed -i "s/colorschemes\/[^\.]*/colorschemes\/sw/" $HOME/.config/alacritty/alacri
 sed -i "s/theme=\".*\"/theme=\"sw\"/" $HOME/.bashrc
 
 # Neovim
-sed -i "s/colorscheme .*/colorscheme parsec/" $HOME/.config/nvim/init.vim
-sed -i "s/_theme = '.*'/_theme = 'distinguished'/" $HOME/.config/nvim/init.vim
+sed -i "s/colorscheme .*/colorscheme dogrun/" $HOME/.config/nvim/init.vim
+sed -i "s/_theme = '.*'/_theme = 'violet'/" $HOME/.config/nvim/init.vim
 
 # VS Code
-sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Kimbie Dark\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
+sed -i "s/colorTheme\": \".*\"/colorTheme\": \"SynthWave '84\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/sw/" $HOME/.config/neofetch/config.conf

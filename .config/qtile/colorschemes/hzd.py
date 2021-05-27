@@ -1,8 +1,8 @@
 # This is the colorscheme for the horizon zero dawn design based on the wallpaper
 
 # Colors are listed from lightest to darkest
-white = "#b7c5db"
-grad1 = "#5d7caa"
-current_group_border = "#7f6b6b"
-grad2 = "#524356"
-black = "#221f25"
+white = "#a5949c"
+grad1 = "#945e6b"
+current_group_border = "#54445c"
+grad2 = "#301a21"
+black = "#180d15"
