@@ -15,9 +15,12 @@ mod = "mod4"
 group_names = [
     "",
     "",
+    "",
+    "",
     "",
     "",
-    ""
+    "",
+    ""
 ]
 groups = [Group(name) for name in group_names]
 for i, (name) in enumerate(group_names):

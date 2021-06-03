@@ -16,9 +16,6 @@ alias gac="git commit -am"
 # Git clone
 alias gc="git clone"
 
-# Edit the awesome config
-alias cfg-awesome="cd $HOME/.config/awesome/ && nvim rc.lua"
-
 # Edit the qtile config
 alias cfg-qtile="cd $HOME/.config/qtile/ && nvim ."
 
