@@ -66,6 +66,7 @@ keys = [
     Key([mod], "m", lazy.spawn(MUSIC_PLAYER)),
 
     # Screenshots
+    Key([], "F10", lazy.spawn("io.elementary.screenshot-tool")),
 
     # Power off
     Key([mod, "control", "shift"], "p", lazy.spawn("poweroff"))
