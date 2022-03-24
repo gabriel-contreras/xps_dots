@@ -15,6 +15,7 @@ Plug 'luochen1990/rainbow'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'lervag/vimtex'
+Plug 'sirver/ultisnips'
 
 " Theme/Aesthetic
 Plug 'danilo-augusto/vim-afterglow'
@@ -38,9 +39,9 @@ set noerrorbells
 set number relativenumber
 set incsearch
 set nohlsearch
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set smartindent
 set nobackup
 set noswapfile
@@ -58,8 +59,8 @@ set textwidth=80
 " world -> archery ; archery
 let g:two_firewatch_italics=1
 let g:airline_powerline_fonts = 1
-colorscheme dogrun
-let g:airline_theme = 'violet'
+colorscheme pink-moon
+let g:airline_theme = 'angr'
 
 " Enables autocompletion:
 set wildmode=longest,list,full
@@ -83,6 +84,13 @@ let g:vimtex_view_forward_search_on_start=0
 autocmd FileType latex,tex setlocal spell
 set spelllang=en_us
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
+" Snippets Configuration
+let g:UltisSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsSnippetsDir='~/.config/nvim/UltiSnips'
+let g:UltiSnipsEditSplit='tabdo'
 
 " Vim Window manipulation keybinds
 nnoremap <leader>h :wincmd h<CR>

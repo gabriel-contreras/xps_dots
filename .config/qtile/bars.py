@@ -1,8 +1,8 @@
 from libqtile import bar, widget
 
 # Set the theme
-from colorschemes.sw import *
-theme = "sw"
+from colorschemes.gow import *
+theme = "gow"
 
 if (theme == "skyrim"): prompt = "🍮: "
 elif (theme == "gow"): prompt = "𝝮: "
@@ -71,24 +71,24 @@ main_bar = bar.Bar(
          widget.Sep(
             linewidth=0,
             padding=6
-         ),
-         widget.Pomodoro(
-            color_active = white,
-            color_break = current_group_border,
-            color_inactive = black,
-            font = 'firacode',
-            fontshadow = current_group_border,
-            fontsize = 18,
-            length_long_break = 15,
-            length_pomodori = 25,
-            length_short_break = 5,
-            num_pomodori = 4,
-            prefix_active = ' ',
-            prefix_break = ' ',
-            prefix_inactive = '',
-            prefix_long_break = ' ',
-            prefix_paused = ''
          )
+         # widget.Pomodoro(
+            # color_active = white,
+            # color_break = current_group_border,
+            # color_inactive = black,
+            # font = 'firacode',
+            # fontshadow = current_group_border,
+            # fontsize = 18,
+            # length_long_break = 15,
+            # length_pomodori = 25,
+            # length_short_break = 5,
+            # num_pomodori = 4,
+            # prefix_active = ' ',
+            # prefix_break = ' ',
+            # prefix_inactive = '',
+            # prefix_long_break = ' ',
+            # prefix_paused = ''
+         # )
      ],
      size = 32,
      background = [grad1, grad2]

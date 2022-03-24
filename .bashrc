@@ -13,7 +13,7 @@ if [ -e $HOME/.bash_functions ]; then
 fi
 
 # Customize the prompt
-theme="sw"
+theme="gow"
 
 if [ $theme = "skyrim" ]; then
 	PS1=' 🍮 \w\n◼️ '
@@ -26,3 +26,7 @@ elif [ $theme = "sw" ]; then
 elif [ $theme = "world" ]; then
 	PS1=' 🌐 \w\n◼️ '
 fi
+
+# Added by NVM Installation
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
