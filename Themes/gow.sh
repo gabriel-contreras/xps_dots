@@ -15,7 +15,7 @@ sed -i "s/colorscheme .*/colorscheme pink-moon/" $HOME/.config/nvim/init.vim
 sed -i "s/_theme = '.*'/_theme = 'angr'/" $HOME/.config/nvim/init.vim
 
 # VS Code
-sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Horizon Bright Bold\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
+sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Horizon Bright Bold\"/" $HOME/.config/Code/User/settings.json
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/gow/" $HOME/.config/neofetch/config.conf

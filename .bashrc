@@ -13,7 +13,7 @@ if [ -e $HOME/.bash_functions ]; then
 fi
 
 # Customize the prompt
-theme="gow"
+theme="hzd"
 
 if [ $theme = "skyrim" ]; then
 	PS1=' 🍮 \w\n◼️ '

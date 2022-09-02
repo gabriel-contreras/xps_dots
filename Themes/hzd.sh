@@ -15,7 +15,7 @@ sed -i "s/colorscheme .*/colorscheme two-firewatch/" $HOME/.config/nvim/init.vim
 sed -i "s/_theme = '.*'/_theme = 'twofirewatch'/" $HOME/.config/nvim/init.vim
 
 # VS Code
-sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Horizon Italic\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
+sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Horizon Italic\"/" $HOME/.config/Code/User/settings.json
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/hzd/" $HOME/.config/neofetch/config.conf

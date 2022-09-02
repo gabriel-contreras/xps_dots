@@ -15,7 +15,7 @@ sed -i "s/colorscheme .*/colorscheme afterglow/" $HOME/.config/nvim/init.vim
 sed -i "s/_theme = '.*'/_theme = 'zenburn'/" $HOME/.config/nvim/init.vim
 
 # VS Code
-sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Ayu Dark\"/" $HOME/.config/Code\ -\ OSS/User/settings.json
+sed -i "s/colorTheme\": \".*\"/colorTheme\": \"Ayu Dark\"/" $HOME/.config/Code/User/settings.json
 
 # Neofetch
 sed -i "s/image_source=\"\$HOME\/\.config\/neofetch\/[^_]*/image_source=\"\$HOME\/\.config\/neofetch\/skyrim/" $HOME/.config/neofetch/config.conf

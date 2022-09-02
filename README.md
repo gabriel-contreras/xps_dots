@@ -6,7 +6,7 @@ These are the dotfiles for my set up on the Dell XPS 15 9500 with a resolution 1
 - **OS**: Arch Linux
 - **WM**: Qtile
 - **Terminal**: Alacritty
-- **Editor**: Neovim/VS Code
+- **Editor**: Neovim/visual-studio-code-bin
 - **Compositor**: Jonaburg's fork of Picom
 - **Fetch**: Neofetch
 - **File Manager**: Pcmanfm

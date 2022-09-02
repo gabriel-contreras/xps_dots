@@ -59,8 +59,8 @@ set textwidth=80
 " world -> archery ; archery
 let g:two_firewatch_italics=1
 let g:airline_powerline_fonts = 1
-colorscheme pink-moon
-let g:airline_theme = 'angr'
+colorscheme two-firewatch
+let g:airline_theme = 'twofirewatch'
 
 " Enables autocompletion:
 set wildmode=longest,list,full
